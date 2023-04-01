@@ -2,118 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>tanay's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
-
-    <hr >
-
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text</small> 
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-    </ul>
-
-    <h3> unordered inline list</h3>
-
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3> reverse ordered list</h3>
-
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-    <h2>@nav</h2>
-
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
+    <nav class="head">
+        <div id="myName">Pravesh</div>
+        <ul class="navList">
             <li>
-                <a href="/">home</a>
+                <a id="home"  class="navLinks" href="/">home</a>
             </li>
             <li>
-                <a href="/">products</a>
+                <a class="navLinks" href="/">projects</a>
             </li>
             <li>
-                <a href="/">about</a>
+                <a class="navLinks" href="/">blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>header</h2>
-
     <header>
-        <img src="img/headImg.svg" />
-        <h1>heading inside hero</h1>
+        <img  src="img/jsImg.svg" />
+        <h1>Pravesh the <span id="webD">web developer</span></h1>
     </header>
 
-    <hr>
-    <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+    <section id="offWhite">
+        <h3>technologies</h3>
+        <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray background</p>
+    <section id="white">
+        <h3>projects</h3>
+        <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+        <a id="primary" href="/"> See Projects</a>
     </section>
 
-    <footer>
-        <div>Some small heading inside footer</div>
+    <section id="offWhite">
+        <h3>blog</h3>
+        <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
+        <a id="secondary" href="/">Read Blogs</a>
+
+    </section>
+
+    <footer id="bottom">
+        <div>social media presence</div>
         <ul>
-            <li>socialone</li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
+            <li>github</li>
+            <li>twitter</li>
+            <li>linkedIn</li>
         </ul>
     </footer>
 
-
-
-
+    
 </body>
 </html>
